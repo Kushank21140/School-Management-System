@@ -1,0 +1,489 @@
+/* Additional custom styles for Student Class Home */
+.student-class-home {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.class-header {
+    margin-bottom: 2rem;
+}
+
+.class-navigation {
+    margin-bottom: 2rem;
+}
+
+.nav-tabs {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav-tab {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-tab:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.nav-tab.active {
+    background: #1976d2;
+    color: white;
+}
+
+.class-content {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* Announcement specific styles */
+.announcement-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 4px solid #1976d2;
+}
+
+.announcement-card.priority-high {
+    border-left-color: #f44336;
+}
+
+.announcement-card.priority-medium {
+    border-left-color: #ff9800;
+}
+
+.announcement-card.priority-low {
+    border-left-color: #4caf50;
+}
+
+.announcement-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.announcement-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.priority-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.priority-badge.priority-high {
+    background: #ffebee;
+    color: #c62828;
+}
+
+.priority-badge.priority-medium {
+    background: #fff3e0;
+    color: #ef6c00;
+}
+
+.priority-badge.priority-low {
+    background: #e8f5e8;
+    color: #2e7d32;
+}
+
+/* Assignment specific styles */
+.assignment-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 4px solid #ff9800;
+}
+
+.assignment-card.status-submitted {
+    border-left-color: #4caf50;
+}
+
+.assignment-header {
+    margin-bottom: 1rem;
+}
+
+.assignment-details {
+    margin-bottom: 1rem;
+}
+
+.assignment-actions {
+    margin-top: 1rem;
+}
+
+.submit-btn {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.submit-btn:hover {
+    background: #1565c0;
+}
+
+.submit-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Resource specific styles */
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.resource-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-2px);
+}
+
+.resource-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.resource-info h4 {
+    margin-bottom: 0.5rem;
+}
+
+.resource-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.download-btn {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.download-btn:hover {
+    background: #45a049;
+}
+
+/* Timetable specific styles */
+.timetable-table-container {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.timetable-table th,
+.timetable-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.timetable-table th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+.time-header,
+.day-header {
+    background: #1976d2 !important;
+    color: white !important;
+}
+
+.time-slot {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+.period-cell {
+    vertical-align: top;
+}
+
+.period-info {
+    background: #e3f2fd;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.period-info div {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.period-info div:last-child {
+    margin-bottom: 0;
+}
+
+.subject-name {
+    font-weight: bold;
+    color: #1976d2;
+}
+
+.teacher-name {
+    color: #666;
+}
+
+.room-name {
+    color: #666;
+}
+
+.empty-period {
+    text-align: center;
+    color: #ccc;
+    font-style: italic;
+}
+
+/* Grades specific styles */
+.grades-table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px 100px 120px 2fr;
+    gap: 1rem;
+    padding: 1rem;
+    background: #f5f5f5;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.grade-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px 100px 120px 2fr;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.grade-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grade-badge.grade-a {
+    background: #e8f5e8;
+    color: #2e7d32;
+}
+
+.grade-badge.grade-bplus {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.grade-badge.grade-b {
+    background: #fff3e0;
+    color: #ef6c00;
+}
+
+.feedback-cell {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-tabs {
+        flex-direction: column;
+    }
+    
+    .table-header,
+    .grade-row {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .timetable-table-container {
+        font-size: 0.875rem;
+    }
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px dashed #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.file-info {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.submission-info {
+    background: #e8f5e8;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.attachment-link {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.attachment-link:hover {
+    text-decoration: underline;
+}
+
+.no-class-data {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.no-timetable {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+/* Additional custom styles if needed */
+.student-class-home {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.class-header {
+    margin-bottom: 2rem;
+}
+
+.class-navigation {
+    margin-bottom: 2rem;
+}
+
+.nav-tabs {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav-tab {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.nav-tab:hover {
+    background: #f5f5f5;
+}
+
+.nav-tab.active {
+    background: #1976d2;
+    color: white;
+    border-color: #1976d2;
+}
+
+.class-content {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-tabs {
+        flex-direction: column;
+    }
+    
+    .nav-tab {
+        text-align: center;
+    }
+}
+
+/* Custom scrollbar for tables */
+.MuiTableContainer-root {
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
