@@ -23,7 +23,7 @@ While the exact features depend on your implementation, a typical system like th
 - 🗂️ **Grade & Performance Overview** — Store and view student academic performance  
 - 🔒 **Role-Based Access Control** — Different access levels for admin, teachers, and students :contentReference[oaicite:1]{index=1}
 
-> You can add additional modules like fee management, communication portals, timetables, and analytics as you expand this system. :contentReference[oaicite:2]{index=2}
+> You can add additional modules like fee management, communication portals, and analytics as you expand this system. :contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -33,19 +33,13 @@ This project uses modern web technologies to deliver a scalable and maintainable
 
 | Layer | Technology |
 |-------|------------|
-| Frontend | React / Angular / Vue (whichever used) |
-| Backend | Node.js / .NET Core (whichever used) |
-| Database | MSSQL / MySQL / MongoDB / SQLite |
+| Frontend | React |
+| Backend | Node.js |
+| Database | MongoDB |
 | APIs | REST architecture |
 | Authentication | JWT or session-based auth |
 
-> Replace above stack with your actual stack if different.
-
 ---
-
-## 🛠️ Installation
-
-Follow these steps to run the project locally:
 
 ### 💾 Clone the repository
 
