@@ -6,7 +6,7 @@ A **full-stack web application** that helps educational institutions manage core
 
 ## 🚀 About the Project
 
-This **School Management System** is designed to simplify and automate daily administrative tasks within a school. It centralizes information about students, faculty, courses, classes, attendance, and more, providing a smooth and organized workflow. :contentReference[oaicite:0]{index=0}
+This **School Management System** is designed to simplify and automate daily administrative tasks within a school. It centralizes information about students, faculty, courses, classes, attendance, and more, providing a smooth and organized workflow. :contentReference
 
 This repository contains both the **frontend** and **backend** code — enabling developers to deploy, extend, or contribute to the project.
 
@@ -21,9 +21,9 @@ While the exact features depend on your implementation, a typical system like th
 - 📘 **Class & Subject Organization** — Easily handle class schedules and subjects  
 - 📊 **Attendance Tracking** — Log attendance for students and generate reports  
 - 🗂️ **Grade & Performance Overview** — Store and view student academic performance  
-- 🔒 **Role-Based Access Control** — Different access levels for admin, teachers, and students :contentReference[oaicite:1]{index=1}
+- 🔒 **Role-Based Access Control** — Different access levels for admin, teachers, and students :contentReference
 
-> You can add additional modules like fee management, communication portals, and analytics as you expand this system. :contentReference[oaicite:2]{index=2}
+> You can add additional modules like fee management, communication portals, and analytics as you expand this system.
 
 ---
 
